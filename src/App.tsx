@@ -50,9 +50,9 @@ const Sidebar = ({ currentView, setView }: { currentView: View, setView: (v: Vie
   return (
     <nav className="w-[240px] h-full bg-surface-container-low border-r border-outline-variant/15 flex flex-col p-6 z-10 shrink-0">
       <div className="flex items-center gap-3 py-4 mb-8">
-        <img 
+       <img 
           src={MOCK_USER.avatarUrl} 
-          alt={MOCK_USER.name} 
+          alt="Neha" 
           className="w-12 h-12 rounded-full shadow-sm object-cover"
         />
         <div>
